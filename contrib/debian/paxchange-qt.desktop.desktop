@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NYEcoin
+Comment=NYEcoin P2P Cryptocurrency
+Exec=nyecoin-qt %u
+Terminal=false
+Type=Application
+Icon=nyecoin128
+MimeType=x-scheme-handler/nyecoin;
+Categories=Office;Finance;
+Name[en_US]=nyecoin-qt.desktop

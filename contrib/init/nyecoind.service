@@ -1,0 +1,26 @@
+[Unit]
+Description=NYECOIN's distributed currency daemon
+After=network.target
+
+[Service]
+User=nyecoin
+Group=nyecoin
+
+Type=forking
+PIDFile=/var/lib/nyecoind/nyecoind.pid
+
+ExecStart=/usr/bin/nyecoind -daemon -pid=/var/lib/nyecoind/nyecoind.pid \
+          -conf=/etc/nyecoin/nyecoin.conf -datadir=/var/lib/nyecoind
+
+ExecStop=-/usr/bin/nyecoin-cli -conf=/etc/nyecoin/nyecoin.conf \
+         -datadir=/var/lib/nyecoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

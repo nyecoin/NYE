@@ -1,0 +1,26 @@
+# /etc/conf.d/nyecoind: config file for /etc/init.d/nyecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nyecoin/nyecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/nyecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/nyecoind.pid"
+
+# Where to write nyecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/nyecoind"
+
+# User and group to own nyecoind process
+#BITCOIND_USER="nyecoin"
+#BITCOIND_GROUP="nyecoin"
+
+# Path to nyecoind executable
+#BITCOIND_BIN="/usr/bin/nyecoind"
+
+# Nice value to run nyecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
