@@ -17,29 +17,18 @@ Perfect for large forums, election survey on website, sport voting. The possibil
 FEATURES
 Coin Ticker: NYE
 Block Time: 1 min
-Masternode Collateral: 5000 NYE
-Total Supply: 100,000,000
-Premine: 1,500,000
-Staking Time: 24 hours
+Masternode Collateral: 500000 NYE
+Total Supply: 600,000,000
+Premine: 360,000,000
 
 
 
 ### Coin Specs
 | **Coin Head**               | **Value**        |
 |-----------------------------|------------------|
-| Block Time                  | 120 Seconds       |
-| Max Coin Supply (PoW Phase) | 1,500,000 NYE  |
-| Max Coin Supply (PoS Phase) | 100,000,000 NYE|
-| Premine                     | 1,500,000 NYE  |
+| Block Time                  | 60 Seconds       |
+| Max Coin Supply (PoS Phase) | 600,000,000 NYE|
+| Premine                     | 360,000,000 NYE  |
 
-### Reward Distribution
 
-| **Block Height** | **Masternodes**  | **PoS**          |
-|------------------|------------------|------------------|
-| 201-259200       | 80% (64 NYE)   | 20% (16 NYE)   | 
-| 259201-388800    | 80% (32 NYE)   | 20% (8 NYE)   | 
-| 388801-518400    | 80% (16 NYE)   | 20% (4 NYE)    |
-| 518401-648000    | 80% (8 NYE)   | 20% (2 NYE)  | 
-| 648001-907200    | 80% (4 NYE)    | 20% (1 NYE) |
-| 907201-Infinite  | 80% (2 NYE)  | 20% (0.5 NYE) | 
 
